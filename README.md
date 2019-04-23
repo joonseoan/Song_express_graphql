@@ -1,11 +1,11 @@
 # Song's Best Lyric Contest
 
 ## Front-end : React
-###  - Packages : apollo-boost, react-apollo, and graphql, react-router-dom
-###  - CSS control : materialize-css
+###  - Packages : apollo-boost, react-apollo, graphql, and react-router-dom
+###  - css : materialized-css
 ## Back-end : Node.js
-###  - Pacages : graphql, express-graphql, and express
-## Database : MALB (MongoDB)
+###  - Packages : graphql, express-graphql, and express
+## Database : mlab (MongoDB)
 
 ## Manual
 ### clone or download applications
@@ -15,9 +15,9 @@
 #### Simple Lyric contest with a number of "likes"
 
 ## App Structure :
-### SongList contains all song lists and a form to create a song title
-### A song item can be deleted if the user does not want to display
-### GraphQL queries song title data from the serve
+### SongList contains all song lists fetched by a roogQuery 
+### A song item can be deleted with a mutation working with "deleteOne()" in a GraphQL resolver.
+##### ![Main Page1](/client/public/images/git_readme/location.PNG)
 
 
 
