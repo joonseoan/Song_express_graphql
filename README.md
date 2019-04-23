@@ -17,7 +17,7 @@
 ## App Structure :
 ### SongList contains all song lists fetched by a roogQuery 
 ### A song item can be deleted with a mutation working with "deleteOne()" in a GraphQL resolver.
-##### ![Main Page1](/client/public/images/git_readme/location.PNG)
+##### ![Main Page1](location.PNG)
 
 
 
